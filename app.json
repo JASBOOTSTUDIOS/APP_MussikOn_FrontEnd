@@ -4,11 +4,11 @@
     "slug": "MussikOn",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Logo_app.png",
+    "icon": "./assets/3.png",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/Logo_app.png",
+      "image": "./assets/3.png",
       "resizeMode": "contain",
       "backgroundColor": "#f1f1f1"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Logo_app.png",
+        "foregroundImage": "./assets/4.png",
         "backgroundColor": "#f1f1f1"
       },
       "permissions": [
@@ -28,7 +28,7 @@
       "package": "com.musikOn"
     },
     "web": {
-      "favicon": "./assets/Logo_app.png"
+      "favicon": "./assets/3.png"
     },
     "plugins": [
       "expo-secure-store"

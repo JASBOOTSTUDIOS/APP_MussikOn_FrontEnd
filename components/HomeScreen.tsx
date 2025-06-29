@@ -47,7 +47,7 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
   
   {/* Logo y título */}
 <Animated.View style={[s.header, { opacity: fadeAnim }]}>
-<Image source={require("../assets/Logo_app_market.png")} style={s.logo}/>
+<Image source={require("../assets/Logo_app.png")} style={s.logo}/>
 <Text style={s.title}>Bienvenido a MusikOn</Text>
 <Text style={s.subtitle}>Conéctate con músicos y eventos en vivo</Text>
 </Animated.View>

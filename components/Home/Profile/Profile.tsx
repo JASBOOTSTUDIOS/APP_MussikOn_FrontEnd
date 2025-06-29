@@ -45,12 +45,12 @@ const Profile = () => {
       {/* Cover + Profile Photo */}
       <View style={styles.header}>
         <Image
-          source={require('../../../assets/imgs/perfil/profile_photo.jpeg')} 
+          source={require('../../../assets/Jefry_Astacio_perfil_example.jpg')} 
           style={styles.cover}
           />
         <TouchableOpacity onPress={() => setModalVisible(true)}>
           <Image
-            source={require('../../../assets/imgs/perfil/profile_photo.jpeg')} 
+            source={require('../../../assets/Jefry_Astacio_perfil_example.jpg')} 
             style={styles.avatar}
             />
         </TouchableOpacity>
@@ -61,7 +61,7 @@ const Profile = () => {
       <Modal visible={modalVisible} transparent={true}>
         <View style={styles.modalContainer}>
           <Image
-            source={require('../../../assets/imgs/perfil/profile_photo.jpeg')}
+            source={require('../../../assets/Jefry_Astacio_perfil_example.jpg')}
             style={styles.modalImage}
             resizeMode="contain"
             />

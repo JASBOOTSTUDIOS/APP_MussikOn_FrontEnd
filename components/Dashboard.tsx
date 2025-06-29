@@ -41,11 +41,11 @@ const Dashboard = ({ navigation }: any) => {
         <AnimatedBackground/>
       <ScrollView style={stylesDashboard.container}>
         <Text style={stylesDashboard.title}>Bienvenido a {appName} 🎶</Text>
-
+{/* 
         <Image
-          source={require('../assets/Logo_app_market.png')} // tu logo elegante
+          source={require('../assets/3.png')} // tu logo elegante
           style={stylesDashboard.logo}
-        />
+        /> */}
 
         <Text style={stylesDashboard.subtitle}>Explora el mundo musical a tu manera</Text>
 
