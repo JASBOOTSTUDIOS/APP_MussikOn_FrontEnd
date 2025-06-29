@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MusikOn",
-    "slug": "MusikOn",
+    "name": "MussikOn",
+    "slug": "MussikOn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Logo_app.png",
